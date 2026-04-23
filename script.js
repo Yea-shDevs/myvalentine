@@ -9,15 +9,15 @@ const gifStages = [
     "https://media1.tenor.com/m/uDugCXK4vI4AAAAC/chiikawa-hachiware.gif"  // 7 crying runaway
 ]
 const noMessages = [
-  "No",
-  "Are you really sure, my love? 🤍",
-  "Pookie, please...🥺",
-  "If you say no, I might not recover...",
-  "I have be thinking about you all day... 😔",
-  "Please???🥺🥺  ",
-  "Dont do this to me...😔😔",
-  "Last chance.....🥺🥺🥺🥺",
-  "You cant catch me anyway haha"
+    "No",
+    "Are you really sure, my love? 🤍",
+    "Pookie, please...🥺",
+    "If you say no, I might not recover...",
+    "I have been thinking about you all day... 😔",
+    "Please???🥺🥺  ",
+    "Dont do this to me...😔😔",
+    "Last chance.....🥺🥺🥺🥺",
+    "You cant catch me anyway haha"
 ]
 
 const yesTeasePokes = [
@@ -47,7 +47,7 @@ music.play().then(() => {
     // Fallback: unmute on first interaction
     document.addEventListener('click', () => {
         music.muted = false
-        music.play().catch(() => {})
+        music.play().catch(() => { })
     }, { once: true })
 })
 
